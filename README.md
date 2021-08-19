@@ -1,7 +1,7 @@
 # Clínica My Health
 ***
 <p align="center">
-![Screenshot](myhealthmd.jpeg)
+ <img src="myhealthmd.jpeg" width="350" alt="accessibility text">
  
 </p>
 
