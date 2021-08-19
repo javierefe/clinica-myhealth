@@ -1,0 +1,123 @@
+:root {
+    --color-azul: #0434a4;
+    --color-amarillo: #04b9f3;
+    --color-navbar: #f1f1f1;
+    --color-negro: #000000;
+    --color-white: #ffffff;
+}
+
+body {
+    font-family: 'Poppins', sans-serif !important;
+}
+
+.navbar {
+    background-color: var(--color-navbar);
+    /* width: 100%; */
+}
+
+#navegacion {
+    height: 100%;
+}
+
+/* .navbar .navbar-brand{
+    font-weight: bold;
+    font-size: 3px !important;
+} */
+.navbar-brand > h1{
+    color: var(--color-azul);
+}
+h1> spam{
+    color: var(--color-amarillo);
+}
+
+.navbar-nav {
+    font-size: 15px;
+    color: var(--color-negro);
+}
+
+.btn{
+    border-radius: 15px !important;
+}
+
+.collapse {
+    justify-content: center;
+}
+
+.banner {
+    height: 105px;
+    background-color: yellow;
+    padding: 34px 5px;
+    
+    background-image: url(/assets/images/Rectangle.svg);
+}
+
+.banner > h1 {
+    font-size: 20px;
+    margin: 0;
+    color: white;
+    text-align: right;
+}
+.banner > button {
+    font-size: 15px;
+    background-color: #e30303;
+    padding: 1px 20px;
+    color: white;
+    margin-left: 200px;
+}   
+
+@media (min-width: 1200) {
+    .banner {
+        height: 105px;
+        padding: 34px 5px;
+        
+        background-image: url(/assets/images/Rectangle.svg);
+    }
+    
+    .banner > h1 {
+        font-size: 15px;
+        margin: 0;
+        color: white;
+        text-align: right;
+    }
+    .banner > button {
+        font-size: 15px;
+        background-color: #e30303;
+        padding: 1px 20px;
+        color: white;
+        margin-left: 200px;
+    }   
+}
+
+#main .carousel-inner img {
+    max-height: 60vh;
+    object-fit: cover;
+    filter: grayscale(60%);
+}
+
+#carouselExampleCaptions{
+    position: relative;
+}
+
+#carouselExampleCaptions .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+}
+
+.container .aea {
+     /* background-color: #e1e5e5; */
+}
+
+.convenios {
+    padding-top: 15px;
+    /* background-color: #e1e5e5; */
+}
+
+.titulo-convenios {
+    color: #0434a4;
+}
+
